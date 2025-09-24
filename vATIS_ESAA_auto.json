@@ -1,8 +1,8 @@
 {
   "name": "ESAA 24 SEP 2025",
-  "id": "d601b4bc-f86c-496b-b4f7-b2f62ee2c6a2",
+  "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025092403,
+  "updateSerial": 2025092404,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -16479,7 +16479,7 @@
           "id": "f4851536-1890-4303-a989-4984a185381e",
           "name": "ESSA ARR 01R/DEP 01L (1)",
           "airportConditions": "",
-          "template": "",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19102,3 +19102,4 @@
   ],
   "version": 4
 }
+
