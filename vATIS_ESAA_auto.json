@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 24 SEP 2025",
+  "name": "ESAA 30 OCT 2025",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025092404,
+  "updateSerial": 2025102901,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -16793,6 +16793,11 @@
           "text": "LVP",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "CDM IN USE",
+          "ordinal": 1,
+          "enabled": false
         }
       ],
       "notamDefinitions": []
@@ -18878,7 +18883,7 @@
         },
         {
           "id": "f9f0efc9-c4d0-4346-9573-b1a2f667dbd1",
-          "name": "ESSA ARR 19L/DEP 19L (9A/9B)",
+          "name": "ESSA ARR 19L/DEP 19L (9A/B/C)",
           "airportConditions": "",
           "notams": "",
           "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19L IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
@@ -18984,7 +18989,7 @@
         },
         {
           "id": "4f990314-ccf6-498a-9775-f59bd872452f",
-          "name": "ESSA ARR 26/DEP 19L (15A/15B)",
+          "name": "ESSA ARR 26/DEP 19L (15A/B/C)",
           "airportConditions": "",
           "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
@@ -19085,6 +19090,21 @@
           "voice": "THREE MILLIMETRES"
         },
         {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X-RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
@@ -19095,6 +19115,16 @@
           "text": "LVP",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y OR X",
+          "ordinal": 1,
+          "enabled": false
         }
       ],
       "notamDefinitions": []
@@ -19102,4 +19132,5 @@
   ],
   "version": 4
 }
+
 
