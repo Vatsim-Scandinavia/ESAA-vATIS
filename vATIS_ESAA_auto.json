@@ -2,7 +2,7 @@
   "name": "ESAA 03 NOV 2025",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025110301,
+  "updateSerial": 2025110302,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2040,6 +2040,25 @@
           "voice": "PER CENT"
         },
         {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
+        },
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -4120,6 +4139,26 @@
           "voice": "PER CENT"
         },
         {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
+        },
+        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -6185,6 +6224,26 @@
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
+        },
+        {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -8253,6 +8312,26 @@
           "voice": "PER CENT"
         },
         {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
+        },
+        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -10317,6 +10396,26 @@
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
+        },
+        {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -12399,6 +12498,26 @@
           "voice": "PER CENT"
         },
         {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
+        },
+        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -14462,6 +14581,26 @@
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
+        },
+        {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -16736,6 +16875,26 @@
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
+        },
+        {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -19040,6 +19199,26 @@
           "voice": "PER CENT"
         },
         {
+          "variableName": "25PCT",
+          "text": "25PCT",
+          "voice": "TWENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "50PCT",
+          "text": "50PCT",
+          "voice": "FIFTY PER CENT"
+        },
+        {
+          "variableName": "75PCT",
+          "text": "75PCT",
+          "voice": "SEVENTY-FIVE PER CENT"
+        },
+        {
+          "variableName": "100PCT",
+          "text": "100PCT",
+          "voice": "ONE HUNDRED PER CENT"
+        },
+        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -19132,6 +19311,7 @@
   ],
   "version": 4
 }
+
 
 
 
