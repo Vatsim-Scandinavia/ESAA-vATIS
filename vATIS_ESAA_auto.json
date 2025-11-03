@@ -2059,6 +2059,7 @@
           "text": "100PCT",
           "voice": "ONE HUNDRED PER CENT"
         },
+        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -19311,6 +19312,7 @@
   ],
   "version": 4
 }
+
 
 
 
