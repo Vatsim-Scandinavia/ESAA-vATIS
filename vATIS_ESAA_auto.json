@@ -2,7 +2,7 @@
   "name": "ESAA 03 NOV 2025",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025110302,
+  "updateSerial": 2025110303,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2122,7 +2122,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         }
@@ -4207,7 +4207,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         }
@@ -6294,7 +6294,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         }
@@ -8380,7 +8380,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         }
@@ -10466,7 +10466,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         }
@@ -12571,7 +12571,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         }
@@ -16950,7 +16950,7 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         },
@@ -19292,17 +19292,17 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LVP",
+          "text": "LVP.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y RWY 01L",
+          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y RWY 01L.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y OR X RWY 19R",
+          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y OR X RWY 19R.",
           "ordinal": 1,
           "enabled": false
         }
@@ -19312,6 +19312,7 @@
   ],
   "version": 4
 }
+
 
 
 
