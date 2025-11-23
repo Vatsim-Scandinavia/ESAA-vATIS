@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 03 NOV 2025",
+  "name": "ESAA 23 NOV 2025",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025110303,
+  "updateSerial": 2025112301,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -4105,7 +4105,7 @@
         {
           "id": "7e715917-0684-47ba-9589-0da195b8cb16",
           "name": "ESKN RWY 26",
-          "airportConditions": "WIP",
+          "airportConditions": "",
           "template": "ESKN_ATIS [ATIS_CODE]. TIME [TIME]. RWY 26 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -19312,6 +19312,7 @@
   ],
   "version": 4
 }
+
 
 
 
