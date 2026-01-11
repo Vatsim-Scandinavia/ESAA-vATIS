@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 23 NOV 2025",
+  "name": "ESAA 11 JAN 2026",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025112301,
+  "updateSerial": 2026011101,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2118,6 +2118,11 @@
           "variableName": "LOC_T",
           "text": "LOC T",
           "voice": "LOCALIZER TANGO APPROACH"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -4203,6 +4208,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -6290,6 +6300,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -8376,6 +8391,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -10462,6 +10482,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -12567,6 +12592,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -14652,6 +14682,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [],
@@ -16946,6 +16981,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -19288,6 +19328,11 @@
           "variableName": "WIP",
           "text": "WIP",
           "voice": "WORK IN PROGRESS"
+        },
+        {
+          "variableName": "THR",
+          "text": "THR",
+          "voice": "THRESHOLD"
         }
       ],
       "airportConditionDefinitions": [
@@ -19312,6 +19357,7 @@
   ],
   "version": 4
 }
+
 
 
 
