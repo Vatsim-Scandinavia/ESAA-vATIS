@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 22 JAN 2026",
+  "name": "ESAA 23 JAN 2026",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026012201,
+  "updateSerial": 2026012301,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2026,12 +2026,12 @@
         },
         {
           "variableName": "ILS_Z",
-          "text": "ILS ZULU",
+          "text": "ILS ZULU APCH.",
           "voice": "I LS ZULU APPROACH."
         },
         {
           "variableName": "ILS_Y",
-          "text": "ILS YANKEE",
+          "text": "ILS YANKEE APCH.",
           "voice": "I LS YANKEE APPROACH."
         },
         {
@@ -2101,7 +2101,7 @@
         },
         {
           "variableName": "RNP_Z",
-          "text": "RNP Z",
+          "text": "RNP Z APCH.",
           "voice": "RNP ZULU APPROACH"
         },
         {
@@ -2121,7 +2121,7 @@
         },
         {
           "variableName": "LOC_T",
-          "text": "LOC T",
+          "text": "LOC T APCH.",
           "voice": "LOCALIZER TANGO APPROACH"
         },
         {
@@ -19363,6 +19363,7 @@
   ],
   "version": 4
 }
+
 
 
 
