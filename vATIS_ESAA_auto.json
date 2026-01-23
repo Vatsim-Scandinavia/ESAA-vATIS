@@ -2,7 +2,7 @@
   "name": "ESAA 23 JAN 2026",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026012301,
+  "updateSerial": 2026012302,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2102,7 +2102,7 @@
         {
           "variableName": "RNP_Z",
           "text": "RNP Z APCH.",
-          "voice": "RNP ZULU APPROACH"
+          "voice": "RNP ZULU APPROACH."
         },
         {
           "variableName": "3MM",
@@ -2122,7 +2122,7 @@
         {
           "variableName": "LOC_T",
           "text": "LOC T APCH.",
-          "voice": "LOCALIZER TANGO APPROACH"
+          "voice": "LOCALIZER TANGO APPROACH."
         },
         {
           "variableName": "THR",
@@ -19363,6 +19363,7 @@
   ],
   "version": 4
 }
+
 
 
 
