@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 23 JAN 2026",
+  "name": "ESAA 01 APR 2026",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026012302,
+  "updateSerial": 2026040101,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -14575,7 +14575,7 @@
           "id": "5a426db3-ca06-4653-9fa5-d1fc969defce",
           "name": "ESTL RWY 11R",
           "airportConditions": "",
-          "template": "ESTL_ATIS [ATIS_CODE].\r\nTIME [TIME].\r\nRWY 11R IN USE.\r\n[ARPT_COND]\r\n[TL.]\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
+          "template": "ESTL_ATIS [ATIS_CODE].\r\nTIME [TIME].\r\nRWY 11R IN USE.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14590,7 +14590,7 @@
           "id": "b197b1ad-33f3-428f-ae4a-fa69a3ff9d86",
           "name": "ESTL RWY 29L",
           "airportConditions": "",
-          "template": "ESTL_ATIS [ATIS_CODE].\r\nTIME [TIME].\r\nRWY 29L IN USE.\r\n[ARPT_COND]\r\n[TL.]\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
+          "template": "ESTL_ATIS [ATIS_CODE].\r\nTIME [TIME].\r\nRWY 29L IN USE.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
