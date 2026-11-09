@@ -2,7 +2,7 @@
   "name": "ESAA 09 NOV 2026",
   "id": "82d30975-5ba6-4117-96ac-7ed8a8cf8f92",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026110904,
+  "updateSerial": 2026110905,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2466,6 +2466,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -4879,6 +4884,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -7299,6 +7309,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -9713,6 +9728,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -12142,6 +12162,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -14570,6 +14595,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -16978,6 +17008,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -19595,6 +19630,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
@@ -21891,7 +21931,7 @@
         {
           "id": "4c6add4a-dac8-406b-80b6-f29322ab5afb",
           "name": "ESSA ARR 01R/DEP 01L (1)",
-          "airportConditions": "",
+          "airportConditions": "RWY 19L RWYCC 5 5 5. ISSUED AT 1159. RWY 100 PCT WET. CHEMICALLY TREATED.",
           "template": "ESSA_ARR_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS\r\nRWY 01R IN USE. DEP RWY 01L.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -22281,6 +22321,11 @@
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
       "patterns": [],
