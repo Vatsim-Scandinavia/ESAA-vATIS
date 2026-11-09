@@ -2,7 +2,7 @@
   "name": "ESAA 09 NOV 2026",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026110902,
+  "updateSerial": 2026110903,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2100,7 +2100,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -4210,7 +4210,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -6312,7 +6312,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -8408,7 +8408,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -10499,7 +10499,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -12624,7 +12624,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -14719,7 +14719,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -16973,26 +16973,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "CAT_II_III",
-          "text": "CAT II/III",
-          "voice": "CATEGORY TWO OR THREE APPROACH"
-        },
-        {
-          "variableName": "CAT_II",
-          "text": "CAT II",
-          "voice": "CATEGORY TWO APPROACH"
-        },
-        {
-          "variableName": "O_R",
-          "text": "O/R",
-          "voice": "ON REQUEST"
-        },
-        {
-          "variableName": "RET",
-          "text": "RET",
-          "voice": "RAPID EXIT TAXIWAY"
-        },
-        {
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
@@ -17033,7 +17013,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
@@ -19321,6 +19301,26 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
+          "variableName": "CAT_II_III",
+          "text": "CAT II/III",
+          "voice": "CATEGORY TWO OR THREE APPROACH"
+        },
+        {
+          "variableName": "CAT_II",
+          "text": "CAT II",
+          "voice": "CATEGORY TWO APPROACH"
+        },
+        {
+          "variableName": "O_R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        },
+        {
+          "variableName": "RET",
+          "text": "RET",
+          "voice": "RAPID EXIT TAXIWAY"
+        },
+        {
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
@@ -19366,7 +19366,7 @@
           "voice": "OUTER MARKER"
         },
         {
-          "variableName": "US",
+          "variableName": "U_S",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
         },
