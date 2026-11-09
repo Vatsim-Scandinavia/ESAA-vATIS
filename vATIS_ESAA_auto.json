@@ -2,7 +2,7 @@
   "name": "ESAA 09 NOV 2026",
   "id": "b69dd50d-3deb-4e3a-be55-2f7801ad9755",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026110901,
+  "updateSerial": 2026110902,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2157,7 +2157,7 @@
           "enabled": false
         },
         {
-          "text": "CAT_II_III",
+          "text": "CAT_II_III O_R.",
           "ordinal": 1,
           "enabled": false
         }
@@ -6350,6 +6350,11 @@
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "CAT_II O_R.",
           "ordinal": 1,
           "enabled": false
         }
@@ -17073,11 +17078,6 @@
           "text": "LVP.",
           "ordinal": 1,
           "enabled": false
-        },
-        {
-          "text": "CAT_II_III",
-          "ordinal": 1,
-          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -19424,6 +19424,11 @@
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "CAT_II_III O_R.",
           "ordinal": 1,
           "enabled": false
         },
