@@ -19279,7 +19279,7 @@
         {
           "id": "ffa4e689-d525-45d7-bf70-e3de2e53dbf9",
           "name": "ESSA ARR 19L/DEP 19R (2)",
-          "airportConditions": "RWY 01L SCC 5 5 5. ISSUED AT 1154. RWY 100 PCT WET.",
+          "airportConditions": "",
           "template": "ESSA_DEP_ATIS [ATIS_CODE].\r\nTIME [TIME]. RWY 19R IN USE. ARR RWY 19L.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -21925,7 +21925,7 @@
         {
           "id": "1b0b0205-8f52-4e4d-8e93-fc57d64f271b",
           "name": "ESSA ARR 01L/DEP 01L (3)",
-          "airportConditions": "LVP. CAT II/III O/R.",
+          "airportConditions": "",
           "template": "ESSA_ARR_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS\r\nRWY 01L IN USE. DEP RWY 01L.\r\n[ARPT_COND]\r\n[TL].\r\nSINGLE RWY OPERATIONS. [NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
