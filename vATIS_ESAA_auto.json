@@ -1,8 +1,8 @@
 {
   "name": "ESAA 17 NOV 2026",
-  "id": "82d30975-5ba6-4117-96ac-7ed8a8cf8f92",
+  "id": "ce0ba7de-7066-4ed0-975f-6ee09d41ee9d",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026111701,
+  "updateSerial": 2026111702,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2280,7 +2280,7 @@
           "airportConditions": "",
           "template": "ESGG_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS_Z\r\nRWY 03 IN USE.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
-            "enabled": false,
+            "enabled": false
           }
         },
         {
@@ -2324,9 +2324,15 @@
           "id": "1b0e32f2-cbef-40dd-8f38-a8673cf0b339",
           "name": "ESGG RWY 21 RNP Z",
           "airportConditions": "",
-          "template": "ESGG_ATIS [ATIS_CODE].\r\nTIME [TIME]. RNP_Z\r\nRWY 21 IN USE.\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
+          "template": "",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -2352,21 +2358,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "CAT_II_III",
-          "text": "CAT II/III",
-          "voice": "CATEGORY TWO OR THREE APPROACH"
-        },
-        {
-          "variableName": "CAT_II",
-          "text": "CAT II",
-          "voice": "CATEGORY TWO APPROACH"
-        },
-        {
-          "variableName": "O_R",
-          "text": "O/R",
-          "voice": "ON REQUEST"
-        },
-        {
           "variableName": "RET",
           "text": "RET",
           "voice": "RAPID EXIT TAXIWAY"
@@ -2375,26 +2366,6 @@
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
-        },
-        {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -2452,11 +2423,6 @@
           "voice": "WORK IN PROGRESS"
         },
         {
-          "variableName": "LOC_T",
-          "text": "LOC T APCH.",
-          "voice": "LOCALIZER TANGO APPROACH."
-        },
-        {
           "variableName": "THR",
           "text": "THR",
           "voice": "THRESHOLD"
@@ -2467,16 +2433,52 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "\\bCAT II/III\\b",
+          "text": "$0",
+          "voice": "CATEGORY TWO OR THREE APPROACH"
+        },
+        {
+          "pattern": "\\bCAT II\\b(?!/)",
+          "text": "$0",
+          "voice": "CATEGORY TWO APPROACH"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
           "ordinal": 1,
+          "enabled": true
+        },
+        {
+          "text": "CAT II/III O/R.",
+          "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "CAT_II_III O_R.",
-          "ordinal": 1,
+          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y RWY 01L.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y OR X RWY 19R.",
+          "ordinal": 4,
           "enabled": false
         }
       ],
@@ -4810,26 +4812,6 @@
           "voice": "PER CENT"
         },
         {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -4885,7 +4867,23 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
@@ -7220,39 +7218,9 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "CAT_II",
-          "text": "CAT II",
-          "voice": "CATEGORY TWO APPROACH"
-        },
-        {
-          "variableName": "O_R",
-          "text": "O/R",
-          "voice": "ON REQUEST"
-        },
-        {
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
-        },
-        {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -7310,7 +7278,28 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "\\bCAT II\\b(?!/)",
+          "text": "$0",
+          "voice": "CATEGORY TWO APPROACH"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
@@ -7318,8 +7307,8 @@
           "enabled": true
         },
         {
-          "text": "CAT_II O_R.",
-          "ordinal": 1,
+          "text": "CAT II O/R.",
+          "ordinal": 2,
           "enabled": true
         }
       ],
@@ -9654,26 +9643,6 @@
           "voice": "PER CENT"
         },
         {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -9729,7 +9698,23 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
@@ -12068,26 +12053,6 @@
           "voice": "PER CENT"
         },
         {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -12163,7 +12128,23 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
@@ -14516,26 +14497,6 @@
           "voice": "PER CENT"
         },
         {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -14596,7 +14557,23 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
@@ -16929,26 +16906,6 @@
           "voice": "PER CENT"
         },
         {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -17009,7 +16966,23 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
       "datisTextReplacements": [],
@@ -19306,7 +19279,7 @@
         {
           "id": "ffa4e689-d525-45d7-bf70-e3de2e53dbf9",
           "name": "ESSA ARR 19L/DEP 19R (2)",
-          "airportConditions": "",
+          "airportConditions": "RWY 01L SCC 5 5 5. ISSUED AT 1154. RWY 100 PCT WET.",
           "template": "ESSA_DEP_ATIS [ATIS_CODE].\r\nTIME [TIME]. RWY 19R IN USE. ARR RWY 19L.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -19551,26 +19524,6 @@
           "voice": "PER CENT"
         },
         {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -19607,7 +19560,7 @@
         },
         {
           "variableName": "SCC",
-          "text": "SCC",
+          "text": "SURFACE CONDITION CODE",
           "voice": "SURFACE CONDITION CODE"
         },
         {
@@ -19631,7 +19584,23 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
@@ -21925,7 +21894,7 @@
         {
           "id": "4c6add4a-dac8-406b-80b6-f29322ab5afb",
           "name": "ESSA ARR 01R/DEP 01L (1)",
-          "airportConditions": "RWY 19L RWYCC 5 5 5. ISSUED AT 1159. RWY 100 PCT WET. CHEMICALLY TREATED.",
+          "airportConditions": "",
           "template": "ESSA_ARR_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS\r\nRWY 01R IN USE. DEP RWY 01L.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -21956,7 +21925,7 @@
         {
           "id": "1b0b0205-8f52-4e4d-8e93-fc57d64f271b",
           "name": "ESSA ARR 01L/DEP 01L (3)",
-          "airportConditions": "",
+          "airportConditions": "LVP. CAT II/III O/R.",
           "template": "ESSA_ARR_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS\r\nRWY 01L IN USE. DEP RWY 01L.\r\n[ARPT_COND]\r\n[TL].\r\nSINGLE RWY OPERATIONS. [NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -22197,21 +22166,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "CAT_II_III",
-          "text": "CAT II/III",
-          "voice": "CATEGORY TWO OR THREE APPROACH"
-        },
-        {
-          "variableName": "CAT_II",
-          "text": "CAT II",
-          "voice": "CATEGORY TWO APPROACH"
-        },
-        {
-          "variableName": "O_R",
-          "text": "O/R",
-          "voice": "ON REQUEST"
-        },
-        {
           "variableName": "RET",
           "text": "RET",
           "voice": "RAPID EXIT TAXIWAY"
@@ -22220,26 +22174,6 @@
           "variableName": "PCT",
           "text": "PCT",
           "voice": "PER CENT"
-        },
-        {
-          "variableName": "25PCT",
-          "text": "25PCT",
-          "voice": "TWENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "50PCT",
-          "text": "50PCT",
-          "voice": "FIFTY PER CENT"
-        },
-        {
-          "variableName": "75PCT",
-          "text": "75PCT",
-          "voice": "SEVENTY-FIVE PER CENT"
-        },
-        {
-          "variableName": "100PCT",
-          "text": "100PCT",
-          "voice": "ONE HUNDRED PER CENT"
         },
         {
           "variableName": "CTN",
@@ -22283,28 +22217,13 @@
         },
         {
           "variableName": "SCC",
-          "text": "SCC",
+          "text": "SURFACE CONDITION CODE",
           "voice": "SURFACE CONDITION CODE"
         },
         {
           "variableName": "3MM",
           "text": "3MM",
           "voice": "THREE MILLIMETRES"
-        },
-        {
-          "variableName": "X",
-          "text": "X",
-          "voice": "X-RAY"
-        },
-        {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "Z",
-          "text": "Z",
-          "voice": "ZULU"
         },
         {
           "variableName": "WIP",
@@ -22322,26 +22241,52 @@
           "voice": "RUNWAY SURFACE CONDITION CODE"
         }
       ],
-      "patterns": [],
+      "patterns": [
+        {
+          "pattern": "\\b(100|75|50|25) PCT\\b",
+          "text": "$0",
+          "voice": "$group($1) percent"
+        },
+        {
+          "pattern": "(ILS|RNP|VOR) ([XYZ])\\b",
+          "text": "$1 $2",
+          "voice": "$1 $phonetic($2)"
+        },
+        {
+          "pattern": "\\bCAT II/III\\b",
+          "text": "$0",
+          "voice": "CATEGORY TWO OR THREE APPROACH"
+        },
+        {
+          "pattern": "\\bCAT II\\b(?!/)",
+          "text": "$0",
+          "voice": "CATEGORY TWO APPROACH"
+        },
+        {
+          "pattern": "O/R",
+          "text": "O/R",
+          "voice": "ON REQUEST"
+        }
+      ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "CAT_II_III O_R.",
-          "ordinal": 1,
-          "enabled": false
+          "text": "CAT II/III O/R.",
+          "ordinal": 2,
+          "enabled": true
         },
         {
           "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y RWY 01L.",
-          "ordinal": 1,
+          "ordinal": 3,
           "enabled": false
         },
         {
           "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y OR X RWY 19R.",
-          "ordinal": 1,
+          "ordinal": 4,
           "enabled": false
         }
       ],
