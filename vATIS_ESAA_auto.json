@@ -2324,7 +2324,7 @@
           "id": "1b0e32f2-cbef-40dd-8f38-a8673cf0b339",
           "name": "ESGG RWY 21 RNP Z",
           "airportConditions": "",
-          "template": "",
+          "template": "ESGG_ATIS [ATIS_CODE].\r\nTIME [TIME]. RNP_Z\r\nRWY 21 IN USE.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
