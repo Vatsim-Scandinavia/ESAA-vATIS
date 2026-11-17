@@ -2471,16 +2471,6 @@
           "ordinal": 2,
           "enabled": false
         },
-        {
-          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y RWY 01L.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y OR X RWY 19R.",
-          "ordinal": 4,
-          "enabled": false
-        }
       ],
       "notamDefinitions": [],
       "datisTextReplacements": [],
