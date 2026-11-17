@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 09 NOV 2026",
+  "name": "ESAA 17 NOV 2026",
   "id": "82d30975-5ba6-4117-96ac-7ed8a8cf8f92",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026110905,
+  "updateSerial": 2026111701,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2278,7 +2278,7 @@
           "id": "d8b0bfc6-ec18-4ef4-b17e-ea6b4484aa0b",
           "name": "ESGG RWY 03 ILS Z",
           "airportConditions": "",
-          "template": "",
+          "template": "ESGG_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS_Z\r\nRWY 03 IN USE.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
