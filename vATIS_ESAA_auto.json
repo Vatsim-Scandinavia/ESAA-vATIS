@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 17 NOV 2026",
-  "id": "ce0ba7de-7066-4ed0-975f-6ee09d41ee9d",
+  "name": "ESAA 18 NOV 2026",
+  "id": "5020188c-ab41-4935-ac4b-066cdd4a4959",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026111703,
+  "updateSerial": 2026111801,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2278,6 +2278,7 @@
           "id": "d8b0bfc6-ec18-4ef4-b17e-ea6b4484aa0b",
           "name": "ESGG RWY 03 ILS Z",
           "airportConditions": "",
+          "notams": "",
           "template": "ESGG_ATIS [ATIS_CODE].\r\nTIME [TIME]. ILS_Z\r\nRWY 03 IN USE.\r\n[ARPT_COND]\r\n[TL].\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false
@@ -2388,16 +2389,6 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESGG_ATIS",
           "text": "ESGG ATIS",
           "voice": "THIS IS LANDVETTER. ATIS. INFORMATION."
@@ -2406,11 +2397,6 @@
           "variableName": "RNP_Z",
           "text": "RNP Z APCH.",
           "voice": "RNP ZULU APPROACH."
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "REQ",
@@ -2458,13 +2444,18 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CAT II/III O/R.",
@@ -4822,24 +4813,9 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESKN_ATIS",
           "text": "ESKN ATIS",
           "voice": "THIS IS SKAVSTA ATIS. INFORMATION."
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -4872,6 +4848,11 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -7233,24 +7214,9 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESMS_ATIS",
           "text": "ESMS ATIS",
           "voice": "THIS IS STURUP. ATIS. INFORMATION."
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -7288,18 +7254,23 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CAT II O/R.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -9653,24 +9624,9 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESNN_ATIS",
           "text": "ESNN ATIS",
           "voice": "THIS IS SUNDSVALL. ATIS. INFORMATION."
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -9703,6 +9659,11 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -12063,16 +12024,6 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESOW_ATIS",
           "text": "ESOW ATIS",
           "voice": "THIS IS VESTEROAHS. ATIS. INFORMATION."
@@ -12096,11 +12047,6 @@
           "variableName": "GOLFBANAN",
           "text": "GOLFBANAN",
           "voice": "GOLFBARNAN"
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -12133,6 +12079,11 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -14507,16 +14458,6 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESSB_ATIS",
           "text": "ESSB ATIS",
           "voice": "THIS IS BROMMA. ATIS. INFORMATION."
@@ -14525,11 +14466,6 @@
           "variableName": "RNP",
           "text": "RNP",
           "voice": "RNP APPROACH"
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -14562,6 +14498,11 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -16921,24 +16862,9 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESTL_ATIS",
           "text": "ESTL ATIS",
           "voice": "THIS IS YOONGBEEHEED. ATIS. INFORMATION."
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -16971,6 +16897,11 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [],
@@ -19255,6 +19186,7 @@
           "id": "f4851536-1890-4303-a989-4984a185381e",
           "name": "ESSA ARR 01R/DEP 01L (1)",
           "airportConditions": "",
+          "notams": "",
           "template": "ESSA_DEP_ATIS [ATIS_CODE].\r\nTIME [TIME]. RWY 01L IN USE. ARR RWY 01R.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nMET REPORT [WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
@@ -19534,16 +19466,6 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESSA_DEP_ATIS",
           "text": "ESSA DEP ATIS",
           "voice": "THIS IS ARLANDA. ATIS. DEPARTURE. INFORMATION."
@@ -19552,11 +19474,6 @@
           "variableName": "SCC",
           "text": "SURFACE CONDITION CODE",
           "voice": "SURFACE CONDITION CODE"
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -19589,6 +19506,11 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -22191,16 +22113,6 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "TWYS",
-          "text": "TWYS",
-          "voice": "TAXIWAYS"
-        },
-        {
-          "variableName": "MM",
-          "text": "MM",
-          "voice": "MILLIMETRES"
-        },
-        {
           "variableName": "ESSA_ARR_ATIS",
           "text": "ESSA ARR ATIS",
           "voice": "THIS IS ARLANDA. ATIS. ARRIVAL. INFORMATION."
@@ -22209,11 +22121,6 @@
           "variableName": "SCC",
           "text": "SURFACE CONDITION CODE",
           "voice": "SURFACE CONDITION CODE"
-        },
-        {
-          "variableName": "3MM",
-          "text": "3MM",
-          "voice": "THREE MILLIMETRES"
         },
         {
           "variableName": "WIP",
@@ -22256,18 +22163,23 @@
           "pattern": "O/R",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "pattern": "\\b(\\d+) ?MM\\b",
+          "text": "$0",
+          "voice": "$digits($1) MILLIMETERS"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "LVP.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CAT II/III O/R.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "INDEPENDENT PARALLEL APCH IN OPERATION. SECONDARY APCH RNP Y RWY 01L.",
