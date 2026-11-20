@@ -2,7 +2,7 @@
   "name": "ESAA 20 NOV 2026",
   "id": "af306f6c-b43e-47ec-a476-4fdc06181e2e",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026112001,
+  "updateSerial": 2026112002,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2242,13 +2242,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -4728,13 +4728,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -7127,13 +7127,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -9538,13 +9538,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -11938,13 +11938,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -14358,13 +14358,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -16772,13 +16772,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -19165,13 +19165,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
@@ -21786,13 +21786,13 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL. {trl}."
+            "voice": ". TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": ". {notams}."
           }
         },
         "closingStatement": {
