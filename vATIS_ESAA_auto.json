@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 20 NOV 2026",
+  "name": "ESAA 26 NOV 2026",
   "id": "af306f6c-b43e-47ec-a476-4fdc06181e2e",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026112002,
+  "updateSerial": 2026112601,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -33,25 +33,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -2270,7 +2270,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -2384,11 +2384,6 @@
           "voice": "RAPID EXIT TAXIWAY"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -2427,6 +2422,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -2519,25 +2519,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -4756,7 +4756,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -4803,11 +4803,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -4841,6 +4836,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -4918,25 +4918,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -7155,7 +7155,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -7204,11 +7204,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -7242,6 +7237,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -7329,25 +7329,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -9566,7 +9566,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -9614,11 +9614,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -9652,6 +9647,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -9729,25 +9729,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -11966,7 +11966,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -12012,11 +12012,6 @@
           "variableName": "LVP",
           "text": "LVP",
           "voice": "LOW VISIBILITY PROCEDURES"
-        },
-        {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
         },
         {
           "variableName": "CTN",
@@ -12072,6 +12067,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -12149,25 +12149,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -14386,7 +14386,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -14448,11 +14448,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -14486,6 +14481,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -14563,25 +14563,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -16800,7 +16800,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -16842,11 +16842,6 @@
           "voice": "HECTO PASKAL"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -16885,6 +16880,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -16956,25 +16956,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -19193,7 +19193,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -19451,11 +19451,6 @@
           "voice": "LOW VISIBILITY PROCEDURES"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -19494,6 +19489,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
@@ -19577,25 +19577,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
+              "text": "WIND {wind_dir}/{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB{wind_spd:#}KT",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
+              "text": "WIND VRB{wind_spd:#}KT MAX{wind_gust:#}",
               "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
@@ -21814,7 +21814,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "British Female (Serena)",
+        "voice": "UK Female (Serena)",
         "speechRate": 140
       },
       "presets": [
@@ -22093,11 +22093,6 @@
           "voice": "RAPID EXIT TAXIWAY"
         },
         {
-          "variableName": "PCT",
-          "text": "PCT",
-          "voice": "PER CENT"
-        },
-        {
           "variableName": "CTN",
           "text": "CTN",
           "voice": "CAUTION"
@@ -22141,6 +22136,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "PCT",
+          "text": "PCT",
+          "voice": "PERCENT"
         }
       ],
       "patterns": [
