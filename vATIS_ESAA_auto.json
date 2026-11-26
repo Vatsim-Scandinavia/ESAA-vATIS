@@ -2,7 +2,7 @@
   "name": "ESAA 26 NOV 2026",
   "id": "af306f6c-b43e-47ec-a476-4fdc06181e2e",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2026112601,
+  "updateSerial": 2026112602,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2270,7 +2270,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -4756,7 +4756,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -7155,7 +7155,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -9566,7 +9566,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -11966,7 +11966,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -14386,7 +14386,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -16800,7 +16800,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -19193,7 +19193,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
@@ -21814,7 +21814,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
-        "voice": "UK Female (Serena)",
+        "voice": "UK Female",
         "speechRate": 140
       },
       "presets": [
